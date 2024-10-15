@@ -101,6 +101,42 @@ namespace Компьютерный_практикум__4
             //    Console.WriteLine("Текущий год не является высокосным");
             //}
 
+            //int x = 3;
+            //int y = 2;
+
+            //int z = x < y ? (x + y) : (x - y);
+            //Console.WriteLine(z);   // 1
+
+            //Console.Write("x = ");
+            //int x = int.Parse(Console.ReadLine());
+            //int y;
+            ////if (x > 0)
+            ////{
+            ////    y = x + 1;
+            ////}
+            ////else
+            ////{
+            ////    y = x - 1;
+            ////}
+            //y = x > 0 ? x + 1 : x - 1;
+            //Console.WriteLine(y);
+
+            //Console.Write("x = ");
+            //int x = int.Parse(Console.ReadLine());
+            //Console.Write("y = ");
+            //int y = int.Parse(Console.ReadLine());
+            //int max = x > y ? x : y;
+            //Console.WriteLine(max);
+
+            Console.Write("x = ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("y = ");
+            int y = int.Parse(Console.ReadLine());
+            Console.Write("z = ");
+            int z = int.Parse(Console.ReadLine());
+            int max = x > y && x > z ? x : (y > z ? y : z);
+            Console.WriteLine(max);
+
             Console.ReadKey();
         }
     }
